@@ -1,0 +1,2 @@
+runtime "node"
+exec "helloworld-iron.js"

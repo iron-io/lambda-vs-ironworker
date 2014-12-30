@@ -1,0 +1,3 @@
+runtime "node"
+exec "CreateThumbnailIron.js"
+dir "node_modules"
