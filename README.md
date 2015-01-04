@@ -3,11 +3,13 @@ This is example code for blog post comparing AWS Lambda to IronWorker.
 TODO: LINK TO POST
 
 The post has information on testing out the helloworld example. This README will show you how to run
-the CreateThumbnail example which is part of the AWS Walkthrough #2: http://docs.aws.amazon.com/lambda/latest/dg/walkthrough-s3-events-adminuser.html
+the CreateThumbnail example which is part of the [AWS Walkthrough #2](http://docs.aws.amazon.com/lambda/latest/dg/walkthrough-s3-events-adminuser.html). 
+
+AWS Walkthrough #2 uses S3’s event actions to call a Lambda function, you can accomplish the same thing using [IronWorker’s webhook](http://dev.iron.io/worker/reference/api/#queue_a_task_from_a_webhook) endpoint to start an IronWorker when an s3 event occurs.
 
 ## CreateThumbnail Example
 
-Follow the instructions here to try the Lambda version: 
+Follow the instructions here to try the Lambda version: http://docs.aws.amazon.com/lambda/latest/dg/walkthrough-s3-events-adminuser.html
 
 To run the exact same thing on IronWorker, do the following:
 
